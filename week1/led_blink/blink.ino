@@ -1,4 +1,8 @@
-//Blink led
+/*
+ * Author: Sarvajit Parsaniya
+ * Date: July 2, 2026
+ * Description: LED blink program with analog potentiometer speed control and serial count tracking.
+ */
 int blinkCount = 0;
 const int potPin = A0;
 
