@@ -17,6 +17,9 @@ enum TrafficState {
   STATE_PEDESTRIAN
 };
 
+// MANUALLY ADDED PROTOTYPE TO FIX ARDUINO COMPILER QUIRK
+void changeState(TrafficState newState);
+
 TrafficState currentState;
 unsigned long previousMillis = 0; // Stores the last time a light changed
 
