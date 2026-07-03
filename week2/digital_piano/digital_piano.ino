@@ -1,5 +1,5 @@
 /*
- * Digital Piano - Basic 4-Key Version (Commit 1)
+ * Digital Piano - Chord Substitute Version (Commit 2)
  * Path: /week2/digital_piano/digital_piano.ino
  */
 
@@ -16,6 +16,7 @@ const int freqDo = 262;
 const int freqRe = 294;
 const int freqMi_Maj = 330; // Major 3rd
 const int freqFa = 349;
+const int freqSol = 392;    // Chord substitute
 
 void setup() {
   Serial.begin(9600);
@@ -41,15 +42,20 @@ void loop() {
   // Calculate how many note buttons are currently pressed
   int buttonsPressed = stateDo + stateRe + stateMi + stateFa;
 
-  // Play corresponding note if exactly one button is pressed
-  if (buttonsPressed == 1) {
+  // --- FEATURE 2 & 1 COMBINED: PLAY TONES ---
+  if (buttonsPressed >= 2) {
+    // Feature 2: Two or more buttons pressed = Play Sol
+    tone(buzzerPin, freqSol);
+  } 
+  else if (buttonsPressed == 1) {
+    // Feature 1: Exactly one button pressed = Play corresponding note
     if (stateDo == HIGH) tone(buzzerPin, freqDo);
     else if (stateRe == HIGH) tone(buzzerPin, freqRe);
     else if (stateMi == HIGH) tone(buzzerPin, freqMi_Maj);
     else if (stateFa == HIGH) tone(buzzerPin, freqFa);
   } 
   else {
-    // No buttons pressed (or too many pressed) = Silence
+    // Feature 1: No buttons pressed = Silence
     noTone(buzzerPin);
   }
   
