@@ -1,0 +1,67 @@
+Multi-Sensor Logger Initialized...
+=== SENSOR LOG ===
+Time      : 5000 ms
+Temp      : 24.0 C | Humidity: 40%
+Light     : 24% (Dark)
+Distance  : 398 cm
+==================
+=== SENSOR LOG ===
+Time      : 10000 ms
+Temp      : 24.0 C | Humidity: 40%
+Light     : 51% (Moderate)
+Distance  : 398 cm
+==================
+=== SENSOR LOG ===
+Time      : 15000 ms
+Temp      : 24.0 C | Humidity: 40%
+Light     : 3% (Dark)
+Distance  : 398 cm
+==================
+=== SENSOR LOG ===
+Time      : 20000 ms
+Temp      : 24.0 C | Humidity: 40%
+Light     : 97% (Bright)
+Distance  : 398 cm
+==================
+=== SENSOR LOG ===
+Time      : 25000 ms
+Temp      : 24.0 C | Humidity: 40%
+Light     : 97% (Bright)
+Distance  : 28 cm
+==================
+=== SENSOR LOG ===
+Time      : 30000 ms
+Temp      : 24.0 C | Humidity: 40%
+Light     : 97% (Bright)
+Distance  : 385 cm
+==================
+=== SENSOR LOG ===
+Time      : 35000 ms
+Temp      : 24.0 C | Humidity: 40%
+Light     : 97% (Bright)
+Distance  : 122 cm
+==================
+=== SENSOR LOG ===
+Time      : 40000 ms
+Temp      : 49.0 C | Humidity: 89%
+Light     : 97% (Bright)
+Distance  : 122 cm
+==================
+=== SENSOR LOG ===
+Time      : 45000 ms
+Temp      : -8.3 C | Humidity: 89%
+Light     : 97% (Bright)
+Distance  : 122 cm
+==================
+=== SENSOR LOG ===
+Time      : 50000 ms
+Temp      : 27.8 C | Humidity: 44%
+Light     : 97% (Bright)
+Distance  : 122 cm
+==================
+=== SENSOR LOG ===
+Time      : 55000 ms
+Temp      : 55.4 C | Humidity: 58%
+Light     : 97% (Bright)
+Distance  : 122 cm
+==================
