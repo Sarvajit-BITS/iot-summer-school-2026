@@ -1,0 +1,25 @@
+AC Thermostat Controller Initialized.
+Mode: AUTO
+EVENT: AC turned ON (Temp exceeded 32 C) | Current Temp: 33.1 C
+EVENT: AC turned OFF (Temp dropped below 28 C) | Current Temp: 10.8 C
+EVENT: AC turned ON (Temp exceeded 32 C) | Current Temp: 42.6 C
+EVENT: Manual Override ENGAGED. AC manually turned OFF
+EVENT: Manual Override DISABLED. Returning to AUTO.
+EVENT: AC turned ON (Temp exceeded 32 C) | Current Temp: 42.6 C
+EVENT: AC turned OFF (Temp dropped below 28 C) | Current Temp: 26.7 C
+EVENT: Manual Override ENGAGED. AC manually turned ON
+EVENT: Manual Override DISABLED. Returning to AUTO.
+EVENT: AC turned OFF (Temp dropped below 28 C) | Current Temp: 26.7 C
+EVENT: Manual Override ENGAGED. AC manually turned ON
+EVENT: Manual Override DISABLED. Returning to AUTO.
+EVENT: AC turned OFF (Temp dropped below 28 C) | Current Temp: 17.1 C
+EVENT: AC turned ON (Temp exceeded 32 C) | Current Temp: 35.2 C
+EVENT: AC turned OFF (Temp dropped below 28 C) | Current Temp: 27.8 C
+EVENT: AC turned ON (Temp exceeded 32 C) | Current Temp: 36.3 C
+EVENT: Manual Override ENGAGED. AC manually turned OFF
+EVENT: Manual Override DISABLED. Returning to AUTO.
+EVENT: AC turned ON (Temp exceeded 32 C) | Current Temp: 36.3 C
+EVENT: Manual Override ENGAGED. AC manually turned OFF
+EVENT: Manual Override DISABLED. Returning to AUTO.
+EVENT: AC turned ON (Temp exceeded 32 C) | Current Temp: 36.3 C
+EVENT: AC turned OFF (Temp dropped below 28 C) | Current Temp: 23.5 C
