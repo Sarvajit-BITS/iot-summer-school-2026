@@ -74,7 +74,7 @@ void loop() {
       return; // Skip cycle if read failed
     }
 
-    // Update Min/Max tracking (Bonus Challenge)
+    // Update Min/Max tracking
     if (data.temperature > maxTemp) maxTemp = data.temperature;
     if (data.temperature < minTemp) minTemp = data.temperature;
 
