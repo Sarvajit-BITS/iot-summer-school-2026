@@ -1,7 +1,12 @@
 # Project 10: Full IoT Home Automation Hub
-An advanced, asynchronous, edge-managed smart home automation hub powered by the ESP32.
-The system provides real-time multi-sensor telemetry, non-blocking local automation rules, safety trip protocols, a local web dashboard via ESP32Async, and live cloud telemetry streaming via MQTT.
-## System Architecture DiagramPlaintext
+
+An advanced, asynchronous, edge-managed smart home automation hub powered by the **ESP32**. The system provides real-time multi-sensor telemetry, non-blocking local automation rules, safety trip protocols, a local web dashboard via `ESP32Async`, and live cloud telemetry streaming via MQTT.
+
+---
+
+## System Architecture Diagram
+
+```text
                                +-------------------+
                                |  Power Supply     |
                                |  (5V USB / DC)    |
