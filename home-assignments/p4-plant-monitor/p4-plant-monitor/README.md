@@ -1,10 +1,10 @@
-# 🌿 ESP32 Smart Plant Watering Monitor
+# ESP32 Smart Plant Watering Monitor
 
 An automated, non-blocking plant monitoring and irrigation system powered by an **ESP32**. The system tracks soil moisture levels and ambient temperature, automatically triggering a water pump via a relay while allowing manual override and live status updates on an OLED display.
 
 ---
 
-## 📌 Features
+## Features
 
 - **Automated Irrigation** — Hysteresis-based moisture control (triggers when Dry < 30%, turns off when Wet > 40%).
 - **Non-Blocking Architecture** — Built using `millis()` timing loops (zero `delay()`), ensuring continuous sensor polling, smooth debouncing, and responsive OLED updates.
@@ -14,7 +14,7 @@ An automated, non-blocking plant monitoring and irrigation system powered by an 
 
 ---
 
-## 🛠️ Hardware Requirements
+## Hardware Requirements
 
 | Component | Quantity | Notes / Model |
 |---|---|---|
@@ -29,7 +29,7 @@ An automated, non-blocking plant monitoring and irrigation system powered by an 
 
 ---
 
-## 🔌 Pin Mapping Table
+## Pin Mapping Table
 
 | Component Pin | ESP32 GPIO | Description |
 |---|---|---|
@@ -46,7 +46,7 @@ An automated, non-blocking plant monitoring and irrigation system powered by an 
 
 ---
 
-## 💻 Dependencies & Libraries
+## Dependencies & Libraries
 
 Ensure the following libraries are installed via the Arduino IDE Library Manager:
 
@@ -57,7 +57,7 @@ Ensure the following libraries are installed via the Arduino IDE Library Manager
 
 ---
 
-## ⚙️ Calibration & Thresholds
+## Calibration & Thresholds
 
 Capacitive sensors output **lower** raw ADC values as moisture increases. Adjust these constants in your main sketch file based on your raw Serial Monitor output:
 
@@ -73,7 +73,7 @@ const int WET_THRESHOLD = 40; // Pump OFF above this %
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Moisture stuck at 100% (Raw ADC = 0):**
 - Check for short circuits along the `AOUT` pin or moisture touching the upper circuitry of the sensor.
