@@ -82,7 +82,7 @@ iitjammu/student/home
 
 | Sensor / Module | ESP32 Pin |
 |---|---|
-| DHT11 (Temp/Hum) | GPIO 4 (or GPIO 16) |
+| DHT11 (Temp/Hum) | GPIO 4  |
 | MQ-2 (Gas/Smoke) | GPIO 35 |
 | LDR (Ambient Light) | GPIO 34 |
 | PIR (Motion) | GPIO 13 |
