@@ -4,7 +4,7 @@ An advanced, asynchronous, edge-managed smart home automation hub powered by the
 
 ---
 
-## 🛠️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart TB
@@ -24,7 +24,7 @@ flowchart TB
 
 ---
 
-## 📋 Automation Rules & Threshold Matrix
+## Automation Rules & Threshold Matrix
 
 The hub operates on a **non-blocking state machine** utilizing `millis()` to evaluate multi-sensor fusion logic without delaying system execution.
 
@@ -36,7 +36,7 @@ The hub operates on a **non-blocking state machine** utilizing `millis()` to eva
 
 ---
 
-## ⚙️ Manual Override Logic
+## Manual Override Logic
 
 To ensure user control and flexibility, the system supports both **Automatic Mode** and **Manual Override Mode**, accessible via the local Async Web Dashboard and MQTT control topics.
 
@@ -53,7 +53,7 @@ To ensure user control and flexibility, the system supports both **Automatic Mod
 
 ---
 
-## 🛰️ Telemetry & MQTT Data Format
+## Telemetry & MQTT Data Format
 
 Telemetry is published every **2–5 seconds** in JSON format to the topic:
 
@@ -76,7 +76,7 @@ iitjammu/student/home
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Hardware Connections
 
