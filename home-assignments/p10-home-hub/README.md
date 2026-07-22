@@ -31,7 +31,7 @@ An advanced, asynchronous, edge-managed smart home automation hub powered by the
 | • LDR (Ambient Lgt)|         | • Buzzer / Red LED  |  | • HiveMQ Broker (MQTT)  |
 | • PIR (Motion)     |         +---------------------+  +-------------------------+
 +--------------------+
-
+'''
 ---
 ## Automation Rules & Threshold Matrix
 
